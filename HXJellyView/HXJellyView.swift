@@ -85,6 +85,8 @@ class HXJellyView: UIView {
     
     //计算路径
     func calculatePath(){
+        //动画开始时 presentation layer开始移动，原始layer隐藏，动画结束时，presentation layer从屏幕上移除，原始layer显示
+        //所以移动的是presentation layer
         let layer = curveView.layer.presentation()
         curveX = (layer?.position.x)!
         curveY = (layer?.position.y)!
@@ -99,7 +101,7 @@ class HXJellyView: UIView {
             let point = pan.translation(in: self)
             //相对于self
 //            let point = pan.location(in: self)
-            //让红点跟着手势走
+            //让紫色点跟着手势走
             mHeight = point.y + Min_Height
             curveX = point.x + Main_Width * 0.5
             curveY = mHeight > Min_Height ? mHeight : Min_Height
