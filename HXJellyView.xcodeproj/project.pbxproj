@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CF7DE81EE543BD000457FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF7DE71EE543BD000457FF /* AppDelegate.swift */; };
+		05CF7DEA1EE543BD000457FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF7DE91EE543BD000457FF /* ViewController.swift */; };
+		05CF7DED1EE543BD000457FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CF7DEB1EE543BD000457FF /* Main.storyboard */; };
+		05CF7DEF1EE543BD000457FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CF7DEE1EE543BD000457FF /* Assets.xcassets */; };
+		05CF7DF21EE543BD000457FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CF7DF01EE543BD000457FF /* LaunchScreen.storyboard */; };
+		05CF7DFD1EE543BD000457FF /* HXJellyViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF7DFC1EE543BD000457FF /* HXJellyViewTests.swift */; };
+		05CF7E081EE543BD000457FF /* HXJellyViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF7E071EE543BD000457FF /* HXJellyViewUITests.swift */; };
+		05CF7E161EE543DB000457FF /* HXJellyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF7E151EE543DB000457FF /* HXJellyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05CF7DF91EE543BD000457FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CF7DDC1EE543BD000457FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CF7DE31EE543BD000457FF;
+			remoteInfo = HXJellyView;
+		};
+		05CF7E041EE543BD000457FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CF7DDC1EE543BD000457FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CF7DE31EE543BD000457FF;
+			remoteInfo = HXJellyView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CF7DE41EE543BD000457FF /* HXJellyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXJellyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CF7DE71EE543BD000457FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05CF7DE91EE543BD000457FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05CF7DEC1EE543BD000457FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05CF7DEE1EE543BD000457FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05CF7DF11EE543BD000457FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05CF7DF31EE543BD000457FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CF7DF81EE543BD000457FF /* HXJellyViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXJellyViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CF7DFC1EE543BD000457FF /* HXJellyViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXJellyViewTests.swift; sourceTree = "<group>"; };
+		05CF7DFE1EE543BD000457FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CF7E031EE543BD000457FF /* HXJellyViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXJellyViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CF7E071EE543BD000457FF /* HXJellyViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXJellyViewUITests.swift; sourceTree = "<group>"; };
+		05CF7E091EE543BD000457FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CF7E151EE543DB000457FF /* HXJellyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXJellyView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05CF7DE11EE543BD000457FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CF7DF51EE543BD000457FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CF7E001EE543BD000457FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CF7DDB1EE543BD000457FF = {
+			isa = PBXGroup;
+			children = (
+				05CF7DE61EE543BD000457FF /* HXJellyView */,
+				05CF7DFB1EE543BD000457FF /* HXJellyViewTests */,
+				05CF7E061EE543BD000457FF /* HXJellyViewUITests */,
+				05CF7DE51EE543BD000457FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05CF7DE51EE543BD000457FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05CF7DE41EE543BD000457FF /* HXJellyView.app */,
+				05CF7DF81EE543BD000457FF /* HXJellyViewTests.xctest */,
+				05CF7E031EE543BD000457FF /* HXJellyViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05CF7DE61EE543BD000457FF /* HXJellyView */ = {
+			isa = PBXGroup;
+			children = (
+				05CF7DE71EE543BD000457FF /* AppDelegate.swift */,
+				05CF7DE91EE543BD000457FF /* ViewController.swift */,
+				05CF7E151EE543DB000457FF /* HXJellyView.swift */,
+				05CF7DEB1EE543BD000457FF /* Main.storyboard */,
+				05CF7DEE1EE543BD000457FF /* Assets.xcassets */,
+				05CF7DF01EE543BD000457FF /* LaunchScreen.storyboard */,
+				05CF7DF31EE543BD000457FF /* Info.plist */,
+			);
+			path = HXJellyView;
+			sourceTree = "<group>";
+		};
+		05CF7DFB1EE543BD000457FF /* HXJellyViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				05CF7DFC1EE543BD000457FF /* HXJellyViewTests.swift */,
+				05CF7DFE1EE543BD000457FF /* Info.plist */,
+			);
+			path = HXJellyViewTests;
+			sourceTree = "<group>";
+		};
+		05CF7E061EE543BD000457FF /* HXJellyViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05CF7E071EE543BD000457FF /* HXJellyViewUITests.swift */,
+				05CF7E091EE543BD000457FF /* Info.plist */,
+			);
+			path = HXJellyViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05CF7DE31EE543BD000457FF /* HXJellyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CF7E0C1EE543BD000457FF /* Build configuration list for PBXNativeTarget "HXJellyView" */;
+			buildPhases = (
+				05CF7DE01EE543BD000457FF /* Sources */,
+				05CF7DE11EE543BD000457FF /* Frameworks */,
+				05CF7DE21EE543BD000457FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXJellyView;
+			productName = HXJellyView;
+			productReference = 05CF7DE41EE543BD000457FF /* HXJellyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05CF7DF71EE543BD000457FF /* HXJellyViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CF7E0F1EE543BD000457FF /* Build configuration list for PBXNativeTarget "HXJellyViewTests" */;
+			buildPhases = (
+				05CF7DF41EE543BD000457FF /* Sources */,
+				05CF7DF51EE543BD000457FF /* Frameworks */,
+				05CF7DF61EE543BD000457FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CF7DFA1EE543BD000457FF /* PBXTargetDependency */,
+			);
+			name = HXJellyViewTests;
+			productName = HXJellyViewTests;
+			productReference = 05CF7DF81EE543BD000457FF /* HXJellyViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05CF7E021EE543BD000457FF /* HXJellyViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CF7E121EE543BD000457FF /* Build configuration list for PBXNativeTarget "HXJellyViewUITests" */;
+			buildPhases = (
+				05CF7DFF1EE543BD000457FF /* Sources */,
+				05CF7E001EE543BD000457FF /* Frameworks */,
+				05CF7E011EE543BD000457FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CF7E051EE543BD000457FF /* PBXTargetDependency */,
+			);
+			name = HXJellyViewUITests;
+			productName = HXJellyViewUITests;
+			productReference = 05CF7E031EE543BD000457FF /* HXJellyViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05CF7DDC1EE543BD000457FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hubery;
+				TargetAttributes = {
+					05CF7DE31EE543BD000457FF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					05CF7DF71EE543BD000457FF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05CF7DE31EE543BD000457FF;
+					};
+					05CF7E021EE543BD000457FF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05CF7DE31EE543BD000457FF;
+					};
+				};
+			};
+			buildConfigurationList = 05CF7DDF1EE543BD000457FF /* Build configuration list for PBXProject "HXJellyView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05CF7DDB1EE543BD000457FF;
+			productRefGroup = 05CF7DE51EE543BD000457FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05CF7DE31EE543BD000457FF /* HXJellyView */,
+				05CF7DF71EE543BD000457FF /* HXJellyViewTests */,
+				05CF7E021EE543BD000457FF /* HXJellyViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05CF7DE21EE543BD000457FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CF7DF21EE543BD000457FF /* LaunchScreen.storyboard in Resources */,
+				05CF7DEF1EE543BD000457FF /* Assets.xcassets in Resources */,
+				05CF7DED1EE543BD000457FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CF7DF61EE543BD000457FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CF7E011EE543BD000457FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05CF7DE01EE543BD000457FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CF7DEA1EE543BD000457FF /* ViewController.swift in Sources */,
+				05CF7DE81EE543BD000457FF /* AppDelegate.swift in Sources */,
+				05CF7E161EE543DB000457FF /* HXJellyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CF7DF41EE543BD000457FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CF7DFD1EE543BD000457FF /* HXJellyViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CF7DFF1EE543BD000457FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CF7E081EE543BD000457FF /* HXJellyViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05CF7DFA1EE543BD000457FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CF7DE31EE543BD000457FF /* HXJellyView */;
+			targetProxy = 05CF7DF91EE543BD000457FF /* PBXContainerItemProxy */;
+		};
+		05CF7E051EE543BD000457FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CF7DE31EE543BD000457FF /* HXJellyView */;
+			targetProxy = 05CF7E041EE543BD000457FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05CF7DEB1EE543BD000457FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CF7DEC1EE543BD000457FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05CF7DF01EE543BD000457FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CF7DF11EE543BD000457FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05CF7E0A1EE543BD000457FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05CF7E0B1EE543BD000457FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05CF7E0D1EE543BD000457FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXJellyView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubery.HXJellyView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05CF7E0E1EE543BD000457FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXJellyView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubery.HXJellyView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		05CF7E101EE543BD000457FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HXJellyViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubery.HXJellyViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXJellyView.app/HXJellyView";
+			};
+			name = Debug;
+		};
+		05CF7E111EE543BD000457FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HXJellyViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubery.HXJellyViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXJellyView.app/HXJellyView";
+			};
+			name = Release;
+		};
+		05CF7E131EE543BD000457FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HXJellyViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubery.HXJellyViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HXJellyView;
+			};
+			name = Debug;
+		};
+		05CF7E141EE543BD000457FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HXJellyViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubery.HXJellyViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HXJellyView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05CF7DDF1EE543BD000457FF /* Build configuration list for PBXProject "HXJellyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CF7E0A1EE543BD000457FF /* Debug */,
+				05CF7E0B1EE543BD000457FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CF7E0C1EE543BD000457FF /* Build configuration list for PBXNativeTarget "HXJellyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CF7E0D1EE543BD000457FF /* Debug */,
+				05CF7E0E1EE543BD000457FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05CF7E0F1EE543BD000457FF /* Build configuration list for PBXNativeTarget "HXJellyViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CF7E101EE543BD000457FF /* Debug */,
+				05CF7E111EE543BD000457FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05CF7E121EE543BD000457FF /* Build configuration list for PBXNativeTarget "HXJellyViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CF7E131EE543BD000457FF /* Debug */,
+				05CF7E141EE543BD000457FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05CF7DDC1EE543BD000457FF /* Project object */;
+}
