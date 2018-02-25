@@ -1,8 +1,9 @@
 在网上看到的UI效果
 模仿写了Swift版本
-[github地址](https://github.com/huberyhx/HXJellyView.git)
 效果图:
+
 ![gif.gif](http://upload-images.jianshu.io/upload_images/2954364-d2c9074c2954be99.gif?imageMogr2/auto-orient/strip)
+
 - View的使用:
 ```swift
         //创建
